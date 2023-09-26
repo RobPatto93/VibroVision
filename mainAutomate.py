@@ -17,13 +17,13 @@ def filepath_generator():
     return file_paths_list
 
 def event_rate_histogram():          
-    subprocess.run(["python","Automate/EventRateHistogram.py"])
+    subprocess.run(["python","EventRateHistogram.py"])
 
 def centroid_fft():
-    subprocess.run(["python","Automate/CentroidFFT.py"])
+    subprocess.run(["python","CentroidFFT.py"])
 
 def per_pixel_fft():
-    subprocess.run(["python","Automate/PerPixelFFT.py"])
+    subprocess.run(["python","PerPixelFFT.py"])
 
 def run():
 
